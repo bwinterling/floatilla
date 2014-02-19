@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :gauge do
-    name "gnar"
-    lat 123.45
-    long -123.45
+    name "MyString"
+    lat 100.01
+    long 50.02
   end
 end
