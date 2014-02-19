@@ -4,6 +4,7 @@ gem 'rails', '4.0.2'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'capybara'
 end
 
 gem 'sass-rails', '~> 4.0.0'
