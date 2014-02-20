@@ -12,6 +12,7 @@ class Gauge < ActiveRecord::Base
        },
        properties: {
          title: name,
+         description: "",
          :"marker-color" => "#fc4353",
          :"marker-size" => "large",
          :"marker-symbol" => "monument"
