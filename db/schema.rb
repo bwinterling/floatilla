@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140219183319) do
+ActiveRecord::Schema.define(version: 20140219232702) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,5 +26,18 @@ ActiveRecord::Schema.define(version: 20140219183319) do
 
   add_index "gauges", ["lat"], name: "index_gauges_on_lat", using: :btree
   add_index "gauges", ["long"], name: "index_gauges_on_long", using: :btree
+
+  create_table "rivers", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "runs", force: true do |t|
+    t.integer  "river_id"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
