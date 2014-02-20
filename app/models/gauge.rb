@@ -7,13 +7,15 @@ class Gauge < ActiveRecord::Base
     {
        type: "Feature",
        geometry: {
-                   type: "Point",
-                   coordinates: [long, lat]
-                 },
+         type: "Point",
+         coordinates: [long, lat]
+       },
        properties: {
-                     title: name,
-                     :"marker-color" => "#fc4353"
-                   }
+         title: name,
+         :"marker-color" => "#fc4353",
+         :"marker-size" => "large",
+         :"marker-symbol" => "monument"
+       }
      }
   end
 
