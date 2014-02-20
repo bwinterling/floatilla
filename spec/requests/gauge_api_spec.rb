@@ -34,8 +34,6 @@ describe "Gauges API" do
 
       marker_symbols = body.map {|gauge| gauge["properties"]["marker-symbol"]}
       expect(marker_symbols).to match_array(["monument", "monument"])
-      # marker-szie
-      # marker-symbol
     end
   end
 
