@@ -7,9 +7,9 @@ describe "Gauges API" do
   end
 
   describe "GET /api/v1/gauges" do
-    it "returns all the gauges" do
-      first_gauge = FactoryGirl.build :gauge, :name => "firsties"
-      second_gauge = FactoryGirl.build :gauge, :name => "secondsies"
+    it "returns all the gauges in valid geo_json" do
+      first_gauge = FactoryGirl.create :gauge, :name => "firsties"
+      second_gauge = FactoryGirl.create :gauge, :name => "secondsies"
 
       get "/api/v1/gauges", {}, @accept_format
 
@@ -20,8 +20,16 @@ describe "Gauges API" do
       gauge_names = body.map {|gauge| gauge["properties"]["title"]}
       expect(gauge_names).to match_array(["firsties", "secondsies"])
 
-      gauage_types = body.map {|gauge| gauge["geometry"]["type"]}
+      gauge_types = body.map {|gauge| gauge["geometry"]["type"]}
       expect(gauge_types).to match_array(["Point", "Point"])
+
+      coords = body.map {|gauge| gauge["geometry"]["coordinates"]}
+      expect(coords).to match_array([ [50.02,100.01], [50.02,100.01] ])
+
+      marker_colors = body.map {|gauge| gauge["properties"]["marker-color"]}
+      expect(marker_colors).to match_array(["#fc4353", "#fc4353"])
+      # marker-szie
+      # marker-symbol
     end
   end
 
