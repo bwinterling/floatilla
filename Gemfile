@@ -3,10 +3,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 group :development, :test do
-  gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl'
   gem 'factory_girl_rails'
+  gem 'pry'
+  gem 'rspec-rails'
 end
 
 gem 'pg'
