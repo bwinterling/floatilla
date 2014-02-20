@@ -24,7 +24,7 @@ describe "Gauges API" do
       expect(gauge_types).to match_array(["Point", "Point"])
 
       coords = body.map {|gauge| gauge["geometry"]["coordinates"]}
-      expect(coords).to match_array([ [50.02,100.01], [50.02,100.01] ])
+      expect(coords).to match_array([ ["50.02","100.01"], ["50.02","100.01"] ])
 
       marker_colors = body.map {|gauge| gauge["properties"]["marker-color"]}
       expect(marker_colors).to match_array(["#fc4353", "#fc4353"])

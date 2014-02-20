@@ -7,10 +7,12 @@ class Gauge < ActiveRecord::Base
     {
        type: "Feature",
        geometry: {
-                   type: "Point"
+                   type: "Point",
+                   coordinates: [long, lat]
                  },
        properties: {
-                     title: name
+                     title: name,
+                     :"marker-color" => "#fc4353"
                    }
      }
   end
