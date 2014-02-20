@@ -1,0 +1,212 @@
+run,difficulty,gauge,range,length,gradient
+01. Eureka to Howardsville (Forks of the Animas),II (for normal flows) ,usgs-09358000,150 - 2000 cfs,3.6 Miles,20 fpm
+02. Howardsville to Silverton (Silverton Daily),III (for normal flows) ,usgs-09358000,150 - 2000 cfs,5 Miles,90 fpm
+03. Mineral Creek ,V (for normal flows) ,usgs-09359010,100 - 300 cfs,1 Miles,320 fpm
+04. Silverton to Tacoma (Upper Animas),IV-V (for normal flows) ,usgs-09359020,300 - 2000 cfs,,80 fpm
+05. Tacoma to Rockwood Rail Yard (Rockwood Box) ,IV-V (for normal flows) ,usgs-09359020,300 - 1000 cfs,2.6 Miles,118 fpm
+06. Bakers Box (Bottom Box),V+ (for normal flows) ,usgs-09359500,400 - 1400 cfs,2.5 Miles,
+07. Bakers Bridge to Trimble Lane ,I-II (for normal flows) ,usgs-09361500,500 - 4000 cfs,6 Miles,15 fpm
+08. Trimble Lane to 32nd Street Park ,I-II (for normal flows) ,usgs-09361500,500 - 4000 cfs,10 Miles,20 fpm
+09. 32nd St. Park to Purple Cliffs ,III (for normal flows) ,usgs-09361500,1000 - 6000 cfs,6.5 Miles,27 fpm
+10. Purple Cliffs to State Line ,II-III (for normal flows) ,usgs-09361500,500 - 6000 cfs,12 Miles,
+01. Bridge to Erikson Springs Campground ,V+ (for normal flows) ,unknown,600 - 1000 cfs,11 Miles,189 fpm
+01. Leadville to Granite,I-II (for normal flows),Usgs-07081200,200 - 1000 cfs,18 Miles,
+02. Granite to Numbers Launch Site (Pinecreek),IV-V (for normal flows) ,usgs-07087050,150 - 5000 cfs,6 Miles,58 fpm
+03. The Numbers (Numbers Launch to Railroad Bridge Launch),IV (varies with level) ,usgs-07087050,300 - 3500 cfs,,71 fpm
+04. Railroad Bridge Launch to Buena Vista (Fractions/ Frogrock/ Milkrun),III (for normal flows) ,usgs-07087050,600 - 3500 cfs,7 Miles,44 fpm
+05. Buena Vista to Fisherman's Bridge ,III (for normal flows) ,usgs-07091200,600 - 3500 cfs,6 Miles,
+06. Fisherman's Bridge access to Stone Bridge access (Browns Canyon),III (for normal flows) ,usgs-07091200,600 - 3500 cfs,,31 fpm
+07. Stone Bridge to Salida (Salida Town),II-III (for normal flows) ,usgs-07091200,600 - 3500 cfs,18.7 Miles,
+08. Salida to Rincon ,II(III) (for normal flows) ,usgs-07091200,600 - 2700 cfs,,
+09. Rincon to Pinnacle Rock ,II-III (for normal flows) ,usgs-07094500,600 - 3500 cfs,27.9 Miles,
+10. Pinnacle Rock Launch to Parkdale Launch (Pinnacle Rock),III (for normal flows) ,usgs-07094500,600 - 3500 cfs,8.7 Miles,33 fpm
+11. Parkdale Launch to Canon City (Royal Gorge),III-IV (for normal flows) ,codwr-ARKWELCO0,150 - 7000 cfs,,46 fpm
+12. Pueblo Whitewater Park ,II+ (for normal flows) ,usgs-07099970,400 - 4000 cfs,0.5 Miles,
+01. Idledale to Morrison ,III-V (for normal flows) ,codwr-BCRMORCO0,120 - 650 cfs,3 Miles,185 fpm
+01. Lake Estes to Drake (Big Tommy / Big T),II-IV+(V+) (for normal flows) ,codwr-BTBLESCO0,200 - 500 cfs,11.5 Miles,102 fpm
+02. Drake to Canyon Mouth (Big Tommy/Big T),III-IV+ (varies with level) ,codwr-BTBLESCO0,250 - 900 cfs,9.6 Miles,107 fpm
+01. Breckenridge Town Run (Breck Whitewater Park ),II(III) (for normal flows) ,usgs-09046490,200 - 500 cfs,,
+02. Blue River Campground to FR 2400 (Upper Blue),III-IV (for normal flows) ,usgs-09050700,200 - 2000 cfs,3 Miles,47 fpm
+03. Green Mountain Reservoir to Spring Creek Road (Green Mountain Canyon),III (for normal flows) ,usgs-09057500,300 - 2000 cfs,3.8 Miles,49 fpm
+01. Switzerland Park to Boulder Falls (Dream Canyon),V+ (for normal flows) ,unknown,unknown,2.25 Miles,305 fpm
+01. Rollinsville to Pinecliffe (Alto Alto SBC),IV (for normal flows) ,codwr-BOCPINCO0,400 - 900 cfs,6 Miles,80 fpm
+02. Pinecliffe to Gross Mountain Reservoir (USB),V+ (for normal flows) ,codwr-BOCPINCO0,300 - 800 cfs,2.6 Miles,229 fpm
+03. Gross Mountain Res to Eldorado State Park (Lower South Boulder Creek),IV(V+) (for normal flows) ,codwr-BOCBGRCO0,180 - 750 cfs,7.2 Miles,65 fpm
+04. Eldorado Canyon (Eldo),V+ (for normal flows) ,codwr-BOCELSCO0,175 - 900 cfs,0.75 Miles,350 fpm
+01. Gun Shy to Jasper Creek (The Source),V (for normal flows) ,codwr-BOCMIDCO0,150 - 450 cfs,2.5 Miles,350 fpm
+02. MM 32 to Blue Bridge (Upper Canyon Run),IV-V(V+) (for normal flows) ,codwr-BOCMIDCO0,200 - 500 cfs,2 Miles,375 fpm
+03. Blue Bridge to Eben G Fine Park (Canyon Run),IV (for normal flows) ,codwr-BOCOROCO0,150 - 1000 cfs,6 Miles,136 fpm
+04. Eben G Fine Park to CU Greenhouse (Town Run),II-III (for normal flows) ,codwr-BOCOROCO0,150 - 800 cfs,3 Miles,52 fpm
+01. 64.30 Rd to Collbran ,IV (for normal flows) ,usgs-09097900,500 - 2000 cfs,7 Miles,143 fpm
+01. Cherokee Park Rd (near Trails End) to Halligan Res. (upper) ,IV-V (for normal flows) ,unknown,unknown,9 Miles,
+02. Livermore Bridge to Main Stem (lower) ,II-III (for normal flows) ,hads-NCHC2,200 - 1000 cfs,11 Miles,
+01. Fish Creek TH to Main fork (South Fork),IV-V (for normal flows) ,unknown,unknown,12.5 Miles,114 fpm
+01. Long Draw Reservoir to Big South Campground (Big South),V+ (for normal flows) ,codwr-LAPLODCO0,350 - 950 cfs,12 Miles,134 fpm
+02. Big South Campground to Tunnel Picnic Ground (Spencer Heights),V (for normal flows) ,codwr-CLAFTCCO0,300 - 900 cfs,2.4 Miles,162 fpm
+03. Home Moraine to Indian Meadows Bridge (White Mile Run/Upper Rustic),III-IV (for normal flows) ,codwr-CLAFTCCO0,600 - 3000 cfs,9.5 Miles,62 fpm
+04. Indian Meadows Bridge to Narrows Picnic Ground (Grandpa's Gorge),III-IV (for normal flows) ,codwr-CLAFTCCO0,650 - 3000 cfs,8 Miles,43 fpm
+05. Narrows Picninc Ground to Steven's Gulch Access (The Narrows),IV-V+ (for normal flows) ,codwr-CLAFTCCO0,150 - 1300 cfs,3.4 Miles,102 fpm
+06. Steven's Gulch Access to Mishawaka Inn (Upper Mishawaka),III-IV (for normal flows) ,codwr-CLAFTCCO0,300 - 3000 cfs,3.3 Miles,64 fpm
+07. Mishiwaka Inn to Poudre Park (Lower Mishiwaka),III (for normal flows) ,codwr-CLAFTCCO0,250 - 3000 cfs,3 Miles,62 fpm
+08. Poudre Park Picnic Gound to below Pine View Falls (Poudre Park),III-IV+ (for normal flows) ,codwr-CLAFTCCO0,250 - 2500 cfs,2 Miles,67 fpm
+09. Pineview Falls to Bridges Take-out (Bridges),III-IV (for normal flows) ,codwr-CLAFTCCO0,250 - 3000 cfs,2 Miles,33 fpm
+10. Below Filter Plant to Picnic Rock Access (Filter Plant),II-III (for normal flows) ,codwr-CLAFTCCO0,300 - 2500 cfs,2.4 Miles,44 fpm
+01. To Animas River ,V+ (for normal flows) ,unknown,unknown,0.8 Miles,680 fpm
+01. Aspen Music School to Slaughterhouse Bridge on Roaring Fork (Castle Creek),IV+ (for normal flows) ,codwr-ROABMCCO0,300 - 900 cfs,2 Miles,158 fpm
+01. Hwy 149 to Blue Mesa Reservoir ,II (for normal flows) ,unknown,unknown,10 Miles,
+01. Big Cimarron Campground to Cimarron Rd. Bridge (Big Cimarron),V+ (for normal flows) ,usgs-09126000,600 - 1200 cfs,10.2 Miles,135 fpm
+02. Cimarron to Gunnison River (Lower Cimarron),V (for normal flows) ,usgs-09126000,400 - 2000 cfs,1 Miles,120 fpm
+01. Missouri Creek TH to Dirt Road (Clear Creek Ark),V (for normal flows) ,codwr-CCACCRCO0,150 - 1000 cfs,3.3 Miles,163 fpm
+01. Coors Falls to Gunshot (West Fork),V (for normal flows) ,usgs-06716100,100 - 350 cfs,1 Miles,392 fpm
+01. Loveland Ski Area to Silverplume (BFE),IV(V+) (for normal flows) ,usgs-394308105413800,160 - 1000 cfs,,
+02. Silverplume to Georgetown ,V+ (for normal flows) ,usgs-394308105413800,100 - 500 cfs,1 Miles,390 fpm
+03. Lawson to Idaho Springs (Dumont),III-IV (for normal flows) ,usgs-06716500,200 - 2000 cfs,5.5 Miles,
+04. Kermit's to Green Bay Rock (Upper Clear Creek),IV (for normal flows) ,usgs-06719505,250 - 1000 cfs,6 Miles,110 fpm
+05. Green Bay Rock (MM 262.9) to Rigor Mortis (MM 267.2) (Black Rock),IV-V(V+) (for normal flows) ,usgs-06719505,500 - 1000 cfs,5.5 Miles,114 fpm
+06. Rigor Mortis (MM 267.2) to Golden (Lower Clear Creek),IV (for normal flows) ,usgs-06719505,500 - 1000 cfs,5.5 Miles,85 fpm
+01. Hot Sulphur Springs to Hwy 40 bridge (Byers Canyon),IV (for normal flows) ,usgs-09034250,400 - 2000 cfs,3 Miles,42 fpm
+02. Gore Canyon ,IV-V (for normal flows) ,usgs-09058000,375 - 2000 cfs,9.5 Miles,35 fpm
+03. Pumphouse campground to State Bridge (Pumphouse),III (for normal flows) ,usgs-09058000,900 - 10000 cfs,11.6 Miles,17 fpm
+04. State Bridge to Burns (Burns Hole),II(III) (for normal flows) ,usgs-09058000,900 - 10000 cfs,35 Miles,15 fpm
+05. Burns to Dotsero (Burns Canyon),II(III) (for normal flows) ,,500 - 15000 cfs,35 Miles,15 fpm
+06. Hanging Lake Exit 125 (I-70) to Shoshone Power Plant Exit 123 (I-70) (Barrel Springs),IV-V(V+) (for normal flows) ,usgs-09070500,1300 - 5000 cfs,3.8 Miles,83 fpm
+"07. Shoshone Power Plant, Exit 123 (I-70) to Grizzly Creek, Exit 121 (I-70) (Shoshone)",III-IV (for normal flows) ,usgs-09070500,500 - 8000 cfs,2 Miles,39 fpm
+08. Grizzly Creek to Two Rivers Park ,II+(III) (for normal flows) ,usgs-09070500,300 - 15000 cfs,6 Miles,19 fpm
+09. Two Rivers to South Canyon ,II(III) (for normal flows) ,usgs-09085100,1800 - 10000 cfs,4 Miles,15 fpm
+10. South Canyon to New Castle ,I (for normal flows) ,usgs-09085100,500 - 10000 cfs,9.5 Miles,15 fpm
+11. New Castle to Cameo ,I (for normal flows) ,unknown,unknown,,
+12. Big Sur (Cameo / Lucky 7),III (for normal flows) ,usgs-09095500,18000 - 25000 cfs,0.1 Miles,15 fpm
+13. Grand Junction Town (Junk Show),I (for normal flows) ,usgs-09163500,1000 - 20000 cfs,30.56 Miles,8 fpm
+14. Loma launch to Westwater launch (Ruby - Horsethief) (Ruby / Horsethief Canyon),II (for normal flows) ,usgs-09163500,200 - 40000 cfs,25 Miles,7 fpm
+01. Platoro Res. to South Fork Conejos (The Pinnacles),II-IV (for normal flows) ,codwr-CONPLACO0,200 - 1500 cfs,6.4 Miles,75 fpm
+01. Cross Creek ,V+ (for normal flows) ,usgs-09065100,140 - 250 cfs,1 Miles,400 fpm
+01. To Scree Slope ,V+ (for normal flows) ,unknown,unknown,0.65 Miles,
+01. Schofield Pass to Crystal (Punchbowls),V+ (for normal flows) ,usgs-09081600,250 - 500 cfs,0.25 Miles,600 fpm
+01. Crystal Mill Falls to Crystal Gorge ,III-IV(V) (for normal flows) ,usgs-09081600,1000 - 3000 cfs,3 Miles,110 fpm
+02. Road to Crystal to Beaver Lake (Crystal Gorge),V+ (for normal flows) ,usgs-09081600,200 - 350 cfs,1.8 Miles,348 fpm
+03. Marble to Redstone (Bogan Canyon),III-IV (for normal flows) ,usgs-09081600,500 - 3000 cfs,3 Miles,80 fpm
+04. Redstone to Penny Hot Springs (Meatgrinder),V+ (for normal flows) ,usgs-09081600,500 - 3000 cfs,2 Miles,96 fpm
+05. Penny Hot Springs to Avalanche Creek (Narrows),IV-V (for normal flows) ,usgs-09081600,500 - 2000 cfs,2.1 Miles,95 fpm
+06. Avalanche Creek to B.R.B. Campground (Avalanche to BRB),III (for normal flows) ,usgs-09081600,500 - 3000 cfs,4.8 Miles,58 fpm
+01. 40' Waterfall to confluence with Slate River ,V (for normal flows) ,usgs-09111500,500 - 2500 cfs,1 Miles,290 fpm
+01. Rico to McPhee Reservoir ,II-III (for normal flows) ,usgs-09165000,200 - 2000 cfs,39 Miles,
+02. Bradfield Launch (McPhee Reservoir) to Dove Creek Pump Station ,II-III(IV) (for normal flows) ,codwr-DOLBMCCO0,800 - 5000 cfs,19 Miles,
+03. Dove Creek Pump Station to Slickrock ,II-III+(IV) (for normal flows) ,usgs-09169500,1000 - 3000 cfs,28 Miles,
+04. Slickrock to Bedrock ,II+(III) (for normal flows) ,usgs-09169500,1000 - 3000 cfs,50 Miles,10 fpm
+05. Bedrock to Gateway (Paradox and Mesa Canyon),II+ (for normal flows) ,usgs-09171100,500 - 5000 cfs,44 Miles,10 fpm
+06. Gateway to Colorado River (UT) ,II+(IV) (for normal flows) ,usgs-09180000,1000 - 4000 cfs,30 Miles,14 fpm
+01. Camp Hale to Red Cliff (Top Eagle),IV(V) (for normal flows) ,usgs-09063000,200 - 1000 cfs,,
+02. Redcliff to Tigiwan Rd (FR 707) (Gilman Gorge),IV-V(V+) (for normal flows) ,usgs-09064600,275 - 2000 cfs,4 Miles,120 fpm
+03. Forest Service Visitor Center to Riverbend bus stop (Dowd Chute),IV (for normal flows) ,usgs-09064600,250 - 4000 cfs,1 Miles,70 fpm
+04. Riverbend bus stop to Edwards (Upper Eagle),III (for normal flows) ,usgs-09064600,1000 - 3000 cfs,7 Miles,60 fpm
+05. Edwards to Eagle (Lower Eagle),II-III (for normal flows) ,usgs-09070000,700 - 5000 cfs,17.4 Miles,36 fpm
+01. Gothic Bridge to above Stupid Falls (Upper East),IV (for normal flows) ,usgs-09112200,600 - 3000 cfs,0.75 Miles,182 fpm
+01. Box Canyon (Upper),V (for normal flows) ,usgs-09241000,700 - 3000 cfs,1.3 Miles,200 fpm
+02. Box Canyon Campground to Glen Eden Bridge (Lower),III (for normal flows) ,usgs-09241000,0 - unknown cfs,8 Miles,64 fpm
+03. Two miles above Mad Creek to Mad Creek ,I-II (for normal flows) ,usgs-09242500,200 - 5000 cfs,2 Miles,
+01. Escalante Forks to Captain Smith's Cabin (Excellante!),IV-V(V+) (for normal flows) ,unknown,unknown,6.5 Miles,131 fpm
+01. Fish Creek Falls to Diversion Dam (Upper Fish Creek),V (for normal flows) ,usgs-09238900,250 - 1000 cfs,1 Miles,250 fpm
+02. Diversion Dam to Safeway ( Lower),IV-V (for normal flows) ,usgs-09238900,200 - 1000 cfs,2.5 Miles,160 fpm
+01. Tabernash to Granby ,III-IV (for normal flows) ,usgs-09033300,400 - 2000 cfs,9.4 Miles,34 fpm
+01. Upper ,IV-V (for normal flows) ,codwr-FRYTHOCO0,250 - 900 cfs,5.7 Miles,
+02. Taylor Creek to Basalt ,IV (for normal flows) ,usgs-09080400,200 - 1500 cfs,5 Miles,
+01. Upper Gore Creek (Upstream of the golf course) ,IV-V (for normal flows) ,usgs-09066325,350 - 1500 cfs,,
+02. East Vail Exit (I-70) to Eagle River ,III-IV (for normal flows) ,usgs-09066325,300 - 2000 cfs,9.2 Miles,67 fpm
+01. Bear Gulch to Centennial Park ,IV+ (for normal flows) ,unknown,unknown,15 Miles,97 fpm
+01. Flaming Gorge to Lodore (CO) ,I-II (for normal flows) ,usgs-09234500,200 - 5000 cfs,46 Miles,
+02. Lodore to Echo Park (Gates of Lodore),II-IV (for normal flows) ,usgs-09234500,300 - 5000 cfs,44 Miles,13 fpm
+03. Echo Park (CO) to Split Mountain (Split Mountain Canyon),II-IV (for normal flows) ,usgs-09261000,200 - 20000 cfs,44 Miles,
+01. 1 Mile up trail to Grizzly Creek Rest Area ,IV-V (for normal flows) ,unknown,unknown,1 Miles,330 fpm
+04. Whitewater Park,II(III) (for normal flows) ,unknown,unknown,0.5 Miles,
+01. Paonia Reservoir to below Somerset ,III (for normal flows) ,usgs-09132500,600 - 10000 cfs,8.8 Miles,41 fpm
+01. Almont to Blue Mesa Reservoir (Town Run),II (for normal flows) ,usgs-09114500,500 - 3000 cfs,,28 fpm
+02. Crystal Dam to Chukar Trail (Black Canyon),IV-V (for normal flows) ,usgs-09128000,600 - 3000 cfs,16 Miles,51 fpm
+03. Chukar to N. Fork (Gunnison Gorge),III (for normal flows) ,usgs-09128000,600 - 15000 cfs,13.5 Miles,
+05. Delta to Whitewater (Lower Gunnison),I(II) (for normal flows) ,usgs-09144250,800 - 20000 cfs,30 Miles,
+01. Above Nellie Creek to 1/2 mile from Lake City ,IV-V (for normal flows) ,unknown,unknown,6.7 Miles,122 fpm
+"01. Hermosa Park 16 mi to Dutch Creek, 8 mi to US 550 ",IV-V (for normal flows) ,unknown,unknown,24 Miles,
+01. 1/4 mi above confluence with Eagle River ,V (for normal flows) ,usgs-09064000,60 - 200 cfs,0.25 Miles,480 fpm
+01. Class II to Boulder Creek ,V+ (for normal flows) ,unknown,unknown,1 Miles,600 fpm
+01. CR 103 bridge to Big South Campground ,V (for normal flows) ,usgs-06746110,160 - 1000 cfs,3 Miles,190 fpm
+01. Kannah Creek TH to Girl Scout Camp Bridge (Upper Kannah Creek),V (for normal flows) ,unknown,unknown,1.8 Miles,256 fpm
+02. Rte. 50 to Rte. 141 (Gunnison River) (Lower Kannah Creek),III (for normal flows) ,unknown,unknown,6.5 Miles,57 fpm
+01. MM 69 to Wills Gulch picnic area ,V+ (for normal flows) ,codwr-LAKATLCO0,300 - 1000 cfs,9 Miles,137 fpm
+01. Cinnamon Gorge (Upper - above Sherman),V+ (for normal flows) ,unknown,unknown,,280 fpm
+02. Lake City Town Run ,III (for normal flows) ,usgs-09124500,300 - 2000 cfs,3.6 Miles,
+03. BLM CG at Redbridge to Gateview CG (Redbridge),III-IV (for normal flows) ,usgs-09124500,500 - 2500 cfs,4.5 Miles,52 fpm
+01. James Canyon Drive to Buckingham Park,IV (for normal flows) ,unknown,unknown,3 Miles,146 fpm
+01. 1st Gorge ,V+ (for normal flows) ,unknown,unknown,3 Miles,187 fpm
+02. 2nd Gorge ,V+ (for normal flows) ,unknown,unknown,,
+01. Above South Mineral CG ,V+ (for normal flows) ,unknown,unknown,0.5 Miles,320 fpm
+01. Lower 25 mi to San Juan confluence ,I-II (for normal flows) ,unknown,unknown,25 Miles,
+01. Forest service Trail 504 Hike and Huck ,V (for normal flows) ,unknown,unknown,400 fpm,
+01. State line to French Creek (Lower Northgate Canyon) ,I-III (for normal flows) ,usgs-06620000,400 - 3000 cfs,12 Miles,
+01. CR 80 to Park Creek Res. (Treasure Ditch/Mystery Canal),III-IV (for normal flows) ,unknown,unknown,1 Miles,80 fpm
+01. Ankle Breaker to Beaver Ponds (OBJ),V (for normal flows) ,usgs-09111500,500 - 1800 cfs,1 Miles,400 fpm
+01. Upper Piedra CG to 1st Fork Bridge (First Box),II-IV (for normal flows) ,usgs-09349800,550 - 4000 cfs,12 Miles,40 fpm
+02. 1st Fork Bridge to Lower Piedra CG (First Box Canyon),III-V (for normal flows) ,usgs-09349800,400 - 3500 cfs,10 Miles,
+03. Lower Piedra CG to Navajo Reservation ,II-III (for normal flows) ,unknown,unknown,20 Miles,
+01. Piney Crossing to State Bridge ,V+ (for normal flows) ,usgs-09059500,100 - 1000 cfs,19 Miles,129 fpm
+01. Hwy 65 to I-70 ,III-IV (for normal flows) ,unknown,unknown,8.3 Miles,33 fpm
+01. US 350 to Highway 109 ,I-V (for normal flows) ,usgs-07126485,200 - 4000 cfs,104 Miles,
+01. Highway 84 to San Juan River ,II-III (for normal flows) ,unknown,unknown,8 Miles,
+01. Rio Grande Res. to 12 miles above Creede (Upper Rio Grande),III-IV (for normal flows) ,codwr-RIOMILCO0,200 - 2000 cfs,8 Miles,38 fpm
+02. Wagon Wheel Gap to South Fork ,II (for normal flows) ,unknown,unknown,12 Miles,
+01. Seven Castles to Basalt 7-11 (Lower Fryingpan),III+ (for normal flows) ,usgs-09080400,200 - 1500 cfs,4.4 Miles,
+01. Weller Lake to Difficult CG (Upper Roaring Fork),V+ (for normal flows) ,usgs-09073300,100 - 1000 cfs,3.2 Miles,
+02. Slaughterhouse (Aspen to Upper Woody Creek Bridge),IV-V (for normal flows) ,codwr-ROABMCCO0,500 - 2000 cfs,4.5 Miles,85 fpm
+03. Upper Woody Creek Bridge to Lower Woody Creek Bridge (Woody Creek),III (for normal flows) ,usgs-09073400,200 - 1400 cfs,3.8 Miles,62 fpm
+04. Lower Woody Creek Bridge to Rte. 82 Bridge (Toothache),III (for normal flows) ,usgs-09073400,200 - 1400 cfs,6.2 Miles,59 fpm
+05. Black Bridge to Veltus Park (Cemetery) (Martha's Front Yahd),II+(III) (for normal flows) ,usgs-09085000,200 - 10000 cfs,6.2 Miles,29 fpm
+01. Gore Pass to HWY 131 ,V+ (for normal flows) ,hads-RCTC2,150 - 400 cfs,7 Miles,197 fpm
+01. Peak to Peak Hwy to Buttonrock Preserve (Upper NSV),V+ (for normal flows) ,codwr-BRKRESCO0,150 - 800 cfs,13 Miles,196 fpm
+02. Buttonrock Preserve to CR 80 (Middle NSV),IV(V) (for normal flows) ,codwr-SVCLYOCO0,250 - 900 cfs,1.8 Miles,110 fpm
+03. CR 80 to Lyons (Lower NSV),III (for normal flows) ,unknown,unknown,6.5 Miles,56 fpm
+01. Ceran St. Vrain TH to Confluence (Upper SSV),V+ (for normal flows) ,unknown,unknown,5.5 Miles,230 fpm
+02. Confluence to 1 in 5 Rapid (SSV),V+ (for normal flows) ,unknown,unknown,5 Miles,248 fpm
+01. East Fork to 160 Bridge (East Fork of San Juan),III-IV (for normal flows) ,codwr-EASAPACO0,150 - 500 cfs,4 Miles,
+01. Footbridge to road near WF Campground,IV-V (for normal flows) ,unknown,unknown,3 Miles,200 fpm
+01. Pagosa to Trujillo Rd (Mesa Canyon),II-III (for normal flows) ,usgs-09342500,400 - 2500 cfs,,32 fpm
+02. Conoco Station to Courthouse (Pagosa Springs Town Run),II-III (for normal flows) ,usgs-09342500,600 - 2000 cfs,1 Miles,
+01. Conoco Station to Bilk Creek (Keystone Gorge),V (for normal flows) ,unknown,unknown,,
+02. Bilk Creek to Silverpick Rd. ,III (for normal flows) ,usgs-09172500,800 - 3000 cfs,7.3 Miles,69 fpm
+03. Silverpick Rd to Specie Creek (San Miguel Canyon),III (for normal flows) ,usgs-09172500,700 - 3000 cfs,5.2 Miles,60 fpm
+04. Specie Creek to Norwood Bridge (Specie to Beaver),II+(III) (for normal flows) ,unknown,unknown,,
+05. Norwood Bridge to Green Truss Bridge (Norwood Canyon/Ledges),III (for normal flows) ,usgs-09172500,1000 - 3000 cfs,16 Miles,46 fpm
+01. North Fork of Slate Drop ,V+ (for normal flows) ,usgs-09111500,unknown,0.25 Miles,
+01. Beaver Ponds to Oh Be Joyful CG ,V (for normal flows) ,usgs-09111500,500 - 2500 cfs,2 Miles,85 fpm
+01. Keystone Lodge to Swan Mtn Rd (KLSPS),IV (for normal flows) ,hads-SAKC2,200 - 500 cfs,2.5 Miles,130 fpm
+"01. Bailey to Pine (Bailey, The ATF Box, The Ten Miler)",IV-V (for normal flows) ,codwr-PLABAICO0,200 - 600 cfs,,160 fpm
+02. Buffalo Creek to South Platte (Foxton),III-IV (for normal flows) ,codwr-PLABAICO0,250 - 10000 cfs,7 Miles,60 fpm
+01. Eleven Mile Canyon (Eleven Mile Reservoir to Lake George),IV(V+) (for normal flows) ,codwr-PLAGEOCO0,150 - 1000 cfs,8 Miles,62 fpm
+02. Lake George to Cheesman Reservoir (Cheeseman / Wildcat Canyon),V+ (for normal flows) ,usgs-06700000,275 - 700 cfs,7.3 Miles,94 fpm
+03. Cheeseman Reservoir to Deckers (Deckers),IV (for normal flows) ,unknown,unknown,5.8 Miles,36 fpm
+04. Deckers to Confluence with North Fork (Chutes),I-III (for normal flows) ,codwr-PLACHECO0,150 - 1000 cfs,12 Miles,
+05. Waterton Canyon (Confluence to Strontia Springs Reservoir),III-IV (for normal flows) ,codwr-PLASPLCO0,300 - 5000 cfs,1 Miles,74 fpm
+06. Near Union Avenue (Union Chutes),III (for normal flows) ,unknown,unknown,0.1 Miles,
+07. Confluence Park (of South Platte with Cherry Creek) ,II-III (for normal flows) ,usgs-06714215,200 - 1000 cfs,0.96 Miles,
+08. Brighton City Park to Ft. Lupton ,I-II (for normal flows) ,usgs-06721000,200 - 10000 cfs,7 Miles,20 fpm
+01. Pine Valley Ranch to Anderson Camp ,III-IV (for normal flows) ,unknown,unknown,4.5 Miles,118 fpm
+01. Taylor Park Reservoir to Almont ,II-IV (for normal flows) ,usgs-09110000,400 - 3000 cfs,18 Miles,
+01. Near Copper Mountain Ski Area to Dillon Reservoir ,III-V (for normal flows) ,usgs-09050100,600 - 800 cfs,4.2 Miles,130 fpm
+01. Horsethief Park to Stunner CG ,V (for normal flows) ,unknown,unknown,5 Miles,170 fpm
+01. Uncompahgre Gorge (The Box),IV-V(V+) (for normal flows) ,usgs-09146020,200 - 600 cfs,3.3 Miles,175 fpm
+02. Ouray to KOA campground (Tuffys Corner),III-V+ (for normal flows) ,usgs-09146020,500 - 2500 cfs,2.2 Miles,160 fpm
+03. Rollins park to Ridgway Reservoir (Town Run),II-III (for normal flows) ,usgs-09146200,500 - 2500 cfs,4.5 Miles,
+04. Billy Creek SWA to Trout Rd ,I-II(III) (for normal flows) ,usgs-09147500,400 - 2000 cfs,,
+01. 1 mile above Vallecito CG ,V+ (for normal flows) ,usgs-09352900,1.60 - 2.20 ft,1 Miles,245 fpm
+01. Mirror Lake to South Fork ,III (for normal flows) ,usgs-09303000,1000 - 5000 cfs,20 Miles,
+01. National Forest CG to North Fork ,III-IV (for normal flows) ,unknown,unknown,10 Miles,
+02. Rangeley to Bonanza Bridge ,I-II (for normal flows) ,usgs-09306290,250 - 5000 cfs,80 Miles,
+01. Horseshoe CG to Williams Fork Reservoir ,II-IV (for normal flows) ,usgs-09037500,200 - 1500 cfs,9 Miles,
+01. National Forest CG to Reservoir ,II (for normal flows) ,unknown,unknown,6 Miles,
+02. Steamboat Lake to Elk River,I (for normal flows) ,codwr-WILBSLCO0,300 - 900 cfs,5 Miles,90 fpm
+01. Downstream from Highway 160 Bridge ,IV+ (for normal flows) ,unknown,unknown,0.25 Miles,
+01. Henderson Mine to West Fork Clear Creek ,V (for normal flows) ,usgs-06716100,200 - 400 cfs,0.5 Miles,430 fpm
+01. Yampa River Park to Transit Center (Steamboat Town),III (for normal flows) ,usgs-09239500,200 - 6000 cfs,3 Miles,23 fpm
+02. Transit Center to Pump Station ,I (for normal flows) ,usgs-09244490,500 - 5000 cfs,,
+"04. Little Yampa Canyon (Little Yampa, Juniper canyons)",I-II(III) (for normal flows) ,usgs-09247600,1000 - 10000 cfs,50 Miles,
+05. 85 Rd to Deer Lodge Park Rd (Cross Mountain Gorge),IV(V) (for normal flows) ,usgs-09260050,700 - 13000 cfs,,67 fpm
+06. Deerlodge Park to Split Mountain CG (Dinosaur),II-III(IV) (for normal flows) ,usgs-09260050,700 - 25000 cfs,,12 fpm
+01. Headwaters Run ,V (for normal flows) ,unknown,unknown,,581 fpm
+02. Bible Camp to Crystal River (Lower Yule),V+ (for normal flows) ,unknown,unknown,1.3 Miles,646 fpm
