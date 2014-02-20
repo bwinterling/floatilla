@@ -18,6 +18,20 @@ $(document).ready(function() {
         "marker-symbol": "monument"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [Map.defaultLong + 1, Map.defaultLat - 1]
+      },
+      "properties": {
+        "title": "Shred the gnar",
+        "description": "yup",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument"
+      }
+    }
   ];
 
   L.mapbox.map('map', 'srtsrt32.haldb884')
