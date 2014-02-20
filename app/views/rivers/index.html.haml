@@ -1,2 +1,5 @@
-%section container
-  %h2 = river.name
+%section.container
+  %h2
+    - @rivers.each do |river|
+      = river.name
+

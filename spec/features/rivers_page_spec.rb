@@ -2,11 +2,12 @@ require 'spec_helper'
 
 describe "rivers page" do
 
+  before :each do
+    @river = FactoryGirl.create :river
+  end
+
   it "displays a listing of available rivers" do
     visit "/rivers"
-    within "#rivers" do
-      expect(page).to have_content("Bear River")
-    end
-
+    expect(page).to have_content(@river.name)
   end
 end
