@@ -1,7 +1,13 @@
-%h1 Floatilla
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
 
-- @gauges.each do |gauge|
-  = gauge.name
-  = gauge.lat
-  = gauge.long
+%div{:class => 'header'}
+  %h1 Floatilla
 
+  - @gauges.each do |gauge|
+    = gauge.name
+    = gauge.lat
+    = gauge.long
+
+%div{:class => "map-body"}
+  %div{:id => "map"}
