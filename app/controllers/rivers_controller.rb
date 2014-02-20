@@ -1,0 +1,2 @@
+class RiversController < ApplicationController
+end
