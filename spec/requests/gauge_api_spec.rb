@@ -13,13 +13,15 @@ describe "Gauges API" do
 
       get "/api/v1/gauges", {}, @accept_format
 
+      expect(response.status).to eq 200
+
       body = JSON.parse(response.body)
 
       gauge_names = body.map {|gauge| gauge["properties"]["title"]}
-      expect(gauges_names).to match_array(["firsties", "secondsies"])
+      expect(gauge_names).to match_array(["firsties", "secondsies"])
 
       gauage_types = body.map {|gauge| gauge["geometry"]["type"]}
-      expect(gauges_types).to match_array(["Point", "Point"])
+      expect(gauge_types).to match_array(["Point", "Point"])
     end
   end
 
