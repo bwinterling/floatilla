@@ -6,9 +6,9 @@ Run the specs with `rspec`
 
 ## API
 
-# api/v1/gauges returns:
+### api/v1/gauges returns:
 ????  should we add a tag "?format=geojson" to return geojson, and leave blank to return standard json information? ????
-
+"""
 [{"type":"Feature",
 	"geometry":{
 		"type":"Point",
@@ -23,8 +23,8 @@ Run the specs with `rspec`
 		}
 	},
 	{additional geojson objects...}]
-
-# api/v1/gauges/:gauge_id returns:
+"""
+### api/v1/gauges/:gauge_id returns:
 
 {
 	"gauge_id":"45",
@@ -40,7 +40,7 @@ Run the specs with `rspec`
   },{additional measurements...}]
 }
 
-# api/v1/rivers returns:
+### api/v1/rivers returns:
 ???? thinking of adding "?state=CO" to limit the return values ????
 
 [{"river_id":"45",
@@ -49,7 +49,7 @@ Run the specs with `rspec`
 	},
 	{additional rivers...}]
 
-# api/v1/rivers/:river_id returns:
+### api/v1/rivers/:river_id returns:
 
 {
 	"river_id":"45",
@@ -81,7 +81,7 @@ Run the specs with `rspec`
 	{additional runs...}]
 }
 
-# api/v1/runs returns:
+### api/v1/runs returns:
 ???? thinking of adding/requiring "?state=CO" to limit the return/limit values ????
 
 [
@@ -114,7 +114,7 @@ Run the specs with `rspec`
 	},{additional rivers...}
 ]
 
-# api/v1/runs/:run_id returns:
+### api/v1/runs/:run_id returns:
 
 {
 	"run_id":"1",
