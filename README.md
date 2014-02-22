@@ -10,18 +10,18 @@ Run the specs with `rspec`
 ????  should we add a tag "?format=geojson" to return geojson, and leave blank to return standard json information? ????
 
     [{"type":"Feature",
-    	"geometry":{
-    		"type":"Point",
-    		"coordinates":["-107.3167","39.55"]
-    		},
-    	"properties":{
-    		"title":"BLUE RIVER BELOW GREEN MOUNTAIN RESEVOIR",
-    		"description":"273 cfs (2014-02-21)",
-    		"marker-color":"#fc4353",
-    		"marker-size":"large",
-    		"marker-symbol":"monument"
-    		}
-    	},{additional geojson objects...}
+      "geometry":{
+        "type":"Point",
+        "coordinates":["-107.3167","39.55"]
+        },
+      "properties":{
+        "title":"BLUE RIVER BELOW GREEN MOUNTAIN RESEVOIR",
+        "description":"273 cfs (2014-02-21)",
+        "marker-color":"#fc4353",
+        "marker-size":"large",
+        "marker-symbol":"monument"
+        }
+      },{additional geojson objects...}
     ]
 
 ### api/v1/gauges/:gauge_id returns:
