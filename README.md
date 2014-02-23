@@ -113,7 +113,6 @@ Run the specs with `rspec`
           },{additional gauges...}]
         },{additional runs...}]
       },{additional rivers...}
-    ]
 
 ### api/v1/runs/:run_id returns:
 
@@ -140,3 +139,30 @@ Run the specs with `rspec`
         },{additional measurements...}]
       },{additional gauges...}]
     }
+
+### api/v1/rivers/:river_id/runs  ??? do we want the "runs" key?
+
+```
+ "runs":[{
+    "run_id":"1",
+    "name":"Upper Animas",
+    "section":"1",
+    "difficulty":"III(for normal flows)",
+    "length":"3.6",
+    "gradient":"90"
+    "min":"150",
+    "max":"2000",
+    "gauges":[
+    { "gauge_id":"45",
+      "source_id":"09057500",
+      "source":"usgs"
+      "name":"BLUE RIVER BELOW GREEN MOUNTAIN RESEVOIR",
+      "lat":"-107.3167",
+      "long":"39.55",
+      "measurements":[{
+        "date_time":"2014-02-20T00:00:00.000-05:00",
+        "unit" => "ft3/s",
+        "value" => "379"
+      },{additional measurements...}]
+    },{additional gauges...}]
+```
