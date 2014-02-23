@@ -5,7 +5,7 @@ Floatilla::Application.routes.draw do
   resources :rivers
 
   namespace :api do
-    namespace :v1 do
+    namespace :v1, :defaults => { :format => 'json' } do
       resources :gauges, only: [:index]
     end
   end
