@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20140224222807) do
 
   add_index "gauges", ["lat"], name: "index_gauges_on_lat", using: :btree
   add_index "gauges", ["long"], name: "index_gauges_on_long", using: :btree
+  add_index "gauges", ["run_id"], name: "index_gauges_on_run_id", using: :btree
 
   create_table "rivers", force: true do |t|
     t.string   "name"
