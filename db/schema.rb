@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140220214006) do
+ActiveRecord::Schema.define(version: 20140224042243) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 20140220214006) do
     t.string   "state"
   end
 
+  add_index "rivers", ["state"], name: "index_rivers_on_state", using: :btree
+
   create_table "runs", force: true do |t|
     t.integer  "river_id"
     t.string   "name"
@@ -41,5 +43,7 @@ ActiveRecord::Schema.define(version: 20140220214006) do
     t.datetime "updated_at"
     t.integer  "section"
   end
+
+  add_index "runs", ["river_id"], name: "index_runs_on_river_id", using: :btree
 
 end
