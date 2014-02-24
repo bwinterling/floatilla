@@ -37,4 +37,23 @@ describe "Gauges API" do
     end
   end
 
+  describe "GET /api/v1/gauges?run_id=1,2,3" do
+    it "returns the gauges associated with the specified runs" do
+      #run1 = FactoryGirl.create(:run, :name => "Run 1")
+      #run2 = FactoryGirl.create(:run, :name => "Run 2")
+      FactoryGirl.create(:gauge, :name => "Flatlands", :run_id => 42)
+      FactoryGirl.create(:gauge, :name => "Badlands", :run_id => 42)
+      FactoryGirl.create(:gauge, :name => "Boogeylands", :run_id => 1)
+
+      get "/api/v1/gauges?run_id=42", {}, @accept_format
+
+      expect(response.status).to eq 200
+
+      body = JSON.parse(response.body)
+
+      gauge_names = body.map {|gauge| gauge["properties"]["title"] }
+      expect(gauge_names).to match_array(["Flatlands", "Badlands"])
+    end
+  end
+
 end
