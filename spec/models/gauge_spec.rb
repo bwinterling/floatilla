@@ -7,6 +7,13 @@ describe Gauge do
       it "creates a gauge" do
         FactoryGirl.build(:gauge).should be_valid
       end
+
+      it "is associated with a run" do
+        river = FactoryGirl.create :river
+        run = FactoryGirl.create :run, :river_id => river.id
+        FactoryGirl.create :gauge, :run_id => run.id
+        expect(run.gauges.first.name).to eq("Fast Run")
+      end
     end
 
     context "with invalid params" do
