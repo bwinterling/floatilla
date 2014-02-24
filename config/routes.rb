@@ -7,7 +7,7 @@ Floatilla::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :gauges, only: [:index]
-      resources :rivers, only: [:index] do
+      resources :rivers, only: [:index, :show] do
         resources :runs, only: [:index]
       end
     end
