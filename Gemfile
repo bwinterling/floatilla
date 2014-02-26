@@ -10,6 +10,10 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+group :development do
+  gem 'newrelic_rpm'
+end
+
 gem 'pg'
 gem 'haml'
 gem 'thin'
