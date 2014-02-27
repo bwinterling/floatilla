@@ -1,8 +1,9 @@
 Floatilla::Application.routes.draw do
 
-  root to: "gauges#index"
+  root to: "pages#index"
 
   resources :rivers
+  resources :pages, only: [:index]
 
   namespace :api do
     namespace :v1 do
