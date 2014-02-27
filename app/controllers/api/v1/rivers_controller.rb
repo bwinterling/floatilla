@@ -1,7 +1,10 @@
 class Api::V1::RiversController < Api::V1::ApiController
 
   def index
-    render json: River.all
+    rivers = River.order(:name)
+    rivers = rivers.offset(params[:offset]) if params[:offset]
+    rivers = rivers.limit(params[:limit]) if params[:limit]
+    render json: rivers
   end
 
   def show
