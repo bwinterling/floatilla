@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/bwinterling/USGS.git
-  revision: 0bc92cddc305fa1e859cd19d0a3ec4fa32c21e16
+  revision: 2665603b9931e42510eb12a435e7647b92a41a8c
   specs:
-    usgs (0.1.0)
+    usgs (0.1.1)
       faraday
       json
 

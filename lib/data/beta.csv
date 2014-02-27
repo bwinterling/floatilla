@@ -68,7 +68,7 @@ run,difficulty,gauge,range,length,gradient
 02. Gore Canyon ,IV-V (for normal flows) ,usgs-09058000,375 - 2000 cfs,9.5 Miles,35 fpm
 03. Pumphouse campground to State Bridge (Pumphouse),III (for normal flows) ,usgs-09058000,900 - 10000 cfs,11.6 Miles,17 fpm
 04. State Bridge to Burns (Burns Hole),II(III) (for normal flows) ,usgs-09058000,900 - 10000 cfs,35 Miles,15 fpm
-05. Burns to Dotsero (Burns Canyon),II(III) (for normal flows) ,,500 - 15000 cfs,35 Miles,15 fpm
+05. Burns to Dotsero (Burns Canyon),II(III) (for normal flows) ,unknown,500 - 15000 cfs,35 Miles,15 fpm
 06. Hanging Lake Exit 125 (I-70) to Shoshone Power Plant Exit 123 (I-70) (Barrel Springs),IV-V(V+) (for normal flows) ,usgs-09070500,1300 - 5000 cfs,3.8 Miles,83 fpm
 "07. Shoshone Power Plant, Exit 123 (I-70) to Grizzly Creek, Exit 121 (I-70) (Shoshone)",III-IV (for normal flows) ,usgs-09070500,500 - 8000 cfs,2 Miles,39 fpm
 08. Grizzly Creek to Two Rivers Park ,II+(III) (for normal flows) ,usgs-09070500,300 - 15000 cfs,6 Miles,19 fpm

@@ -84,4 +84,39 @@ class Data::Seeder
     end
   end
 
+  def self.load_gauge_data
+    #use the beta.csv file, which has run_name and gauge mapped
+    source = "./lib/data/beta.csv"
+    beta_data = CSV.read(source, headers: true, header_converters: :symbol)
+    beta_data.each do |row|
+
+      if row[:gauge].downcase.start_with?("usgs")
+        #for each run in the csv, find the corresponding run in the DB
+        #the gsub only applies to the Colorado data which has leading section #s
+        run_name = row[:run].gsub(/^\d{2}. /, "")
+        run = Run.find_by(:name => run_name)
+        #capture gauge id from beta
+        gauge_id = row[:gauge].match(/[0-9]+$/)[0]
+        #make a request to the usgs gem for the gauge associated with the run
+        gauge_data = Usgs::Request.measurements_by(gauge_id).first
+
+        #create a gauge record for the using run and gauage data
+        run.gauges.create(
+          :name => gauge_data.site_name,
+          :lat => gauge_data.geo_location["latitude"],
+          :long => gauge_data.geo_location["longitude"],
+          :state => gauge_data.state,
+          :provider => gauge_data.provider
+        )
+      end
+
+      sleep 1
+    end
+  end
+
+  def load_gauge_measurements
+
+
+  end
+
 end

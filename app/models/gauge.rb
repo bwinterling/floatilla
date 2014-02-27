@@ -1,4 +1,5 @@
 class Gauge < ActiveRecord::Base
+  has_many :measurements
   belongs_to :run
 
   validates :name, presence: true
