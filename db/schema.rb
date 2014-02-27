@@ -11,20 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140227022659) do
+ActiveRecord::Schema.define(version: 20140227032335) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "gauges", force: true do |t|
     t.string   "name"
-    t.decimal  "lat",        precision: 10, scale: 6
-    t.decimal  "long",       precision: 10, scale: 6
+    t.decimal  "lat",         precision: 10, scale: 6
+    t.decimal  "long",        precision: 10, scale: 6
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "run_id"
     t.string   "state"
     t.string   "provider"
+    t.string   "provider_id"
   end
 
   add_index "gauges", ["lat"], name: "index_gauges_on_lat", using: :btree

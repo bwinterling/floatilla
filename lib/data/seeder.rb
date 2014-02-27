@@ -107,16 +107,20 @@ class Data::Seeder
           :lat => gauge_data.geo_location["latitude"],
           :long => gauge_data.geo_location["longitude"],
           :state => gauge_data.state,
-          :provider => gauge_data.provider
+          :provider => gauge_data.provider,
+          :provider_id => gauge_data.gauge_id #this is the usgs/etc ID
         )
       end
 
-      sleep 1
+      sleep 0.5
     end
   end
 
   def load_gauge_measurements
-
+    Gauge.all.each do |gauge|
+      gauge_data = Usgs::Request.measurements_by(gauge_id).first
+      msmts = U
+    end
 
   end
 
