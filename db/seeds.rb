@@ -5,4 +5,5 @@ Data::Seeder.load_river_data
 Data::Seeder.load_run_data
 Data::Seeder.load_beta
 Data::Seeder.load_gauge_data
+Data::Seeder.load_gauge_measurements
 
