@@ -85,6 +85,7 @@ class Data::Seeder
   end
 
   def self.load_gauge_data
+    Gauge.delete_all
     #use the beta.csv file, which has run_name and gauge mapped
     source = "./lib/data/beta.csv"
     beta_data = CSV.read(source, headers: true, header_converters: :symbol)
