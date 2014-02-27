@@ -2,6 +2,7 @@ Floatilla::Application.routes.draw do
 
   root to: "pages#index"
 
+  resources :gauges, only: [:index]
   resources :rivers
   resources :pages, only: [:index]
 
