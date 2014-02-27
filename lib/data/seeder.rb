@@ -112,14 +112,24 @@ class Data::Seeder
         )
       end
 
-      sleep 0.5
+      sleep 1
     end
   end
 
-  def load_gauge_measurements
+  def self.load_gauge_measurements
+    Measurement.delete_all
     Gauge.all.each do |gauge|
-      gauge_data = Usgs::Request.measurements_by(gauge_id).first
-      msmts = U
+      gauge_data = Usgs::Request.measurements_by(gauge.provider_id).first
+      gauge_data.measurements.each do |msmt|
+        if msmt["unit"] == "ft3/s"
+          gauge.measurements.create(
+              :datetime => msmt["dateTime"],
+              :unit => msmt["unit"],
+              :value => msmt["value"]
+            )
+        end
+      end
+      sleep 1
     end
 
   end
